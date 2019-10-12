@@ -12,17 +12,19 @@ data = {
         "task": "Chicekn",
         "description": "myAgentName",
         "done": False,
-        "title": ""
+        "title": "",
+        "client_id":"miguel",
+        "client_secret":"python"
         }
 
 
 headers = {"Content-Type": "application/json"}
 
 #Call REST API
-response = requests.put(url, data=json.dumps(data), headers=headers)
+#response = requests.put(url, data=json.dumps(data), headers=headers)
 
 #Print Response
-print(response.text)
+#print(response.text)
 
 
 
@@ -35,7 +37,9 @@ data = {
         "task": "Chicekn",
         "description": "myAgentName",
         "done": False,
-        "title": ""
+        "title": "",
+        "client_id":"miguel",
+        "client_secret":"python"
         }
 
 
